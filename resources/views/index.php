@@ -108,8 +108,8 @@
         </div>
         <br/>
           <div class="alert alert-danger" ng-if="vm.errorMsg">
-               No Products To Show
-            </div>
+               {{vm.errorMsgBody}}
+          </div>
     </div>
 
     <!-- Product Detail Modal -->
